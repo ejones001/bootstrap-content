@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Typography and Color Example</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    /* Custom styles */
+    .custom-bg {
+      background-color: #f8f9fa;
+    }
+    /* Styling links and buttons */
+    .custom-link {
+      color: #007bff;
+    }
+    .custom-btn {
+      background-color: #28a745;
+      color: #fff;
+      border-color: #28a745;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Task 4: Customize the background and text color of various sections -->
+<div class="container-fluid custom-bg">
+  <div class="container">
+    <h1 class="display-4 text-center">Welcome to My Website</h1>
+    <p class="lead text-center">Enhancing typography and color scheme with Bootstrap.</p>
+    <hr>
+    <h2 class="text-primary text-center">Section Heading</h2>
+    <p class="text-muted text-center">This is a paragraph. You can use Bootstrap's typography classes to style it.</p>
+    <!-- Text alignment and emphasis classes -->
+    <p class="text-uppercase font-weight-bold text-center">This text is uppercase and bold.</p>
+    <!-- Styling links and buttons -->
+    <p class="text-center"><a href="#" class="btn btn-lg custom-btn">Learn More</a></p>
+  </div>
+</div>
+
+<div class="container">
+  <!-- Task 5: Create a responsive table with alternate row colors -->
+  <h2 class="mt-5">Responsive Table</h2>
+  <div class="table-responsive">
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Name</th>
+          <th>Email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>John Doe</td>
+          <td>john@example.com</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Jane Smith</td>
+          <td>jane@example.com</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Michael Johnson</td>
+          <td>michael@example.com</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<!-- Bootstrap JS and dependencies -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
